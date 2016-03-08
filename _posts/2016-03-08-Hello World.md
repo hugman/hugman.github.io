@@ -2,6 +2,7 @@
 layout: post
 excerpt: 'A post for test'
 tags: []
+ref: hello
 lang: en
 title: 'Multi Language SEtting'
 category: 
