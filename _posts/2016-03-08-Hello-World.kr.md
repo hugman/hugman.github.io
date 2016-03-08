@@ -1,5 +1,7 @@
 ---
 published: false
+ref: hello
+lang: kr
 ---
 
 ## 헬로 월드
