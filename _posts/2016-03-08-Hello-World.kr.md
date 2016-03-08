@@ -2,6 +2,7 @@
 layout: post
 excerpt: '테스트 페이지'
 tags: []
+ref: hello
 lang: kr
 title: '복수 언어 지원'
 category: 
