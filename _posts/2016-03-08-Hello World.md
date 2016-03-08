@@ -1,6 +1,10 @@
 ---
 published: false
+layout: post
+excerpt: A post for test
+tags: []
 ---
+
 
 ## A New Post
 
