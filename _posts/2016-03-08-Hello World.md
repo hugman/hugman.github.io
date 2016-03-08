@@ -6,8 +6,8 @@ tags: []
 ---
 
 
-## A New Post
+## Multi Language Setting
 
-Test Page 
+Check out
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+[Multi LIngual Jekyll Settings](https://www.sylvaindurand.org/making-jekyll-multilingual/)
