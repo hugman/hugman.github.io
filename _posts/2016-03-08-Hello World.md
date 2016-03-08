@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: A post for test
 tags: []
