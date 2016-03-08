@@ -1,9 +1,10 @@
 ---
-published: true
 layout: post
-excerpt: A post for test
+excerpt: 'A post for test'
 tags: []
 lang: en
+title: 'Multi Language SEtting'
+category: 
 ---
 
 
