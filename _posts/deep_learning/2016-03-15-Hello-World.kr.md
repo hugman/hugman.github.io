@@ -1,6 +1,6 @@
 ---
 layout: post
-excerpt: '테스트 페이지 222'
+excerpt: 'Deep Learnign Intro'
 tags: []
 title: 'Deep Learning 소개'
 category: deep_learning
