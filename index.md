@@ -7,4 +7,5 @@ image:
   feature: sample-image-1.jpg
 ---
 
-I am an Research Scientist at SK Telecom
+I am a Research Scientist at SK Telecom. 
+
