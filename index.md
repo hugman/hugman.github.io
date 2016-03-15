@@ -1,9 +1,10 @@
 ---
-layout: home
-excerpt: "Hugman's Home Page"
-tags: [hugman, intelligence, deep_learning]
+layout: page
+title: Hugman Sangkeun Jung
+excerpt: "Hugman Sangkeun Jung"
+tags: [hugman, deep_learning, machine_learning, blog]
 image:
   feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
+
+I am an Research Scientist at SK Telecom
