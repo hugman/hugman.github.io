@@ -5,7 +5,7 @@ tags: []
 ref: hello
 lang: kr
 title: '복수 언어 지원'
-category: 
+category: deep_learning
 ---
 
 
