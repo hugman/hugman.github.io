@@ -38,10 +38,6 @@ page_layout: page
 # Format titles with titlecase?
 titlecase: true
 
-# home page
- links:
-  - title: CURRICULUM VITAE
-    url: /cv/
 
 # Site owner
 owner:
