@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D585EB12-33E9-4603-A4AE-D531F1350E84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>site</RootNamespace>
+    <AssemblyName>site</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>_build\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <IntermediateOutputPath>_build\obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>_build\bin\Release\</OutputPath>
+    <IntermediateOutputPath>_build\obj\Release\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="_build\bin\Debug\" />
+    <Folder Include="_build\obj\Release\TempPE\" />
+    <Folder Include="_site\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\js\plugins\jquery.fitvids.js" />
+    <Content Include="assets\js\plugins\jquery.magnific-popup.js" />
+    <Content Include="assets\js\scripts.min.js" />
+    <Content Include="assets\js\vendor\html5shiv.min.js" />
+    <Content Include="assets\js\vendor\jquery-1.9.1.min.js" />
+    <Content Include="assets\js\vendor\modernizr-2.7.1.custom.min.js" />
+    <Content Include="assets\js\vendor\respond.min.js" />
+    <Content Include="assets\js\_main.js" />
+    <Content Include="assets\return-values-screenshot.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
+    <Content Include="feed.xml" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="images\3953273590_704e3899d5_m.jpg" />
+    <Content Include="images\apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="images\apple-touch-icon-144x144-precomposed.png" />
+    <Content Include="images\apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="images\apple-touch-icon-precomposed.png" />
+    <Content Include="images\bio-photo-2.jpg" />
+    <Content Include="images\bio-photo.jpg" />
+    <Content Include="images\default-thumb.png" />
+    <Content Include="images\mm-theme-post-600.jpg" />
+    <Content Include="images\mm-theme-post-750.jpg" />
+    <Content Include="images\paragraph-indent.png" />
+    <Content Include="images\paragraph-no-indent.png" />
+    <Content Include="images\sample-image-1.jpg" />
+    <Content Include="images\sample-image-2.jpg" />
+    <Content Include="images\sample-image-3.jpg" />
+    <Content Include="images\sample-image-4.jpg" />
+    <Content Include="images\sample-image-5.jpg" />
+    <Content Include="images\sample-image-6.jpg" />
+    <Content Include="images\sample-image-7.jpg" />
+    <Content Include="_build\bin\Release\site.dll" />
+    <Content Include="_build\bin\Release\site.pdb" />
+    <Content Include="_build\obj\Release\site.csproj.FileListAbsolute.txt" />
+    <Content Include="_build\obj\Release\site.dll" />
+    <Content Include="_build\obj\Release\site.pdb" />
+    <Content Include="_includes\_author-bio.html" />
+    <Content Include="_includes\_browser-upgrade.html" />
+    <Content Include="_includes\_disqus_comments.html" />
+    <Content Include="_includes\_feed-footer.html" />
+    <Content Include="_includes\_footer.html" />
+    <Content Include="_includes\_head.html" />
+    <Content Include="_includes\_navigation.html" />
+    <Content Include="_includes\_open-graph.html" />
+    <Content Include="_includes\_scripts.html" />
+    <Content Include="_includes\_social-share.html" />
+    <Content Include="_includes\_toc.html" />
+    <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\dl-post-index.html" />
+    <Content Include="_layouts\home.html" />
+    <Content Include="_layouts\page.html" />
+    <Content Include="_layouts\post-index.html" />
+    <Content Include="_layouts\post.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".jshintrc" />
+    <None Include="404.md" />
+    <None Include="about\index.md" />
+    <None Include="assets\css\main.scss" />
+    <None Include="assets\fonts\fontawesome-webfont.eot" />
+    <None Include="assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="assets\fonts\fontawesome-webfont.woff" />
+    <None Include="assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="assets\fonts\FontAwesome.otf" />
+    <None Include="cv\index.md" />
+    <None Include="dl\index.md" />
+    <None Include="Gemfile" />
+    <None Include="Gemfile.lock" />
+    <None Include="index.md" />
+    <None Include="LICENSE" />
+    <None Include="package.json" />
+    <None Include="posts\index.md" />
+    <None Include="README.md" />
+    <None Include="theme-setup\index.md" />
+    <None Include="_build\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="_build\obj\Release\site.csprojResolveAssemblyReference.cache" />
+    <None Include="_config.yml" />
+    <None Include="_data\authors.yml" />
+    <None Include="_data\navigation.yml" />
+    <None Include="_posts\deep_learning\2016-03-21-test-vs.md" />
+    <None Include="_posts\deep_learning\2016-03-15-Hello-World.kr.md" />
+    <None Include="_sass\coderay.scss" />
+    <None Include="_sass\elements.scss" />
+    <None Include="_sass\forms.scss" />
+    <None Include="_sass\grid.scss" />
+    <None Include="_sass\mixins.scss" />
+    <None Include="_sass\normalize.scss" />
+    <None Include="_sass\page.scss" />
+    <None Include="_sass\print.scss" />
+    <None Include="_sass\site.scss" />
+    <None Include="_sass\syntax.scss" />
+    <None Include="_sass\typography.scss" />
+    <None Include="_sass\variables.scss" />
+    <None Include="_sass\vendor\font-awesome\font-awesome.scss" />
+    <None Include="_sass\vendor\font-awesome\_animated.scss" />
+    <None Include="_sass\vendor\font-awesome\_bordered-pulled.scss" />
+    <None Include="_sass\vendor\font-awesome\_core.scss" />
+    <None Include="_sass\vendor\font-awesome\_fixed-width.scss" />
+    <None Include="_sass\vendor\font-awesome\_icons.scss" />
+    <None Include="_sass\vendor\font-awesome\_larger.scss" />
+    <None Include="_sass\vendor\font-awesome\_list.scss" />
+    <None Include="_sass\vendor\font-awesome\_mixins.scss" />
+    <None Include="_sass\vendor\font-awesome\_path.scss" />
+    <None Include="_sass\vendor\font-awesome\_rotated-flipped.scss" />
+    <None Include="_sass\vendor\font-awesome\_stacked.scss" />
+    <None Include="_sass\vendor\font-awesome\_variables.scss" />
+    <None Include="_sass\vendor\google\_fonts.scss" />
+    <None Include="_sass\vendor\magnific-popup\magnific-popup.scss" />
+    <None Include="_sass\vendor\magnific-popup\_settings.scss" />
+    <None Include="_templates\archive" />
+    <None Include="_templates\page" />
+    <None Include="_templates\post" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_build\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="_build\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="_build\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
