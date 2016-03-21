@@ -97,7 +97,6 @@
     <Content Include="_includes\_scripts.html" />
     <Content Include="_includes\_social-share.html" />
     <Content Include="_includes\_toc.html" />
-    <Content Include="_layouts\default.html" />
     <Content Include="_layouts\dl-post-index.html" />
     <Content Include="_layouts\home.html" />
     <Content Include="_layouts\page.html" />
